@@ -39,15 +39,75 @@
             </li>
           </ul>
         </nav>
-        <button type="button" class="mob-menu-open">
-          <svg class="mob-menu-open-icon" width="32" height="22">
-          <use href="./images/icons.svg#icon-open-mob-menu"></use>
-              </svg> </button>
-            <ul class="header-contacts list">
+<ul class="header-contacts list">
         <li><a class="header-email link" href="mailto:info@devstudio.com"
           >info@devstudio.com</a> </li>
         <li><a class="header-tel link" href="tel:110001111111"
-          >+11 (000) 111-11-11 </a> </li> </ul> </div>
+          >+11 (000) 111-11-11 </a> </li> </ul> 
+
+<button type="button" class="mob-menu-open" data-menu-open>
+          <svg class="mob-menu-open-icon" width="32" height="22">
+          <use href="./images/icons.svg#icon-open-mob-menu"></use>
+              </svg> </button> </div>
+
+<div class="mobile-menu is.hidden" data-menu>
+  <div class="container">
+  <div class="mob-menu-top">
+<button type="button" class="mob-menu-close" data-menu-close>
+          <svg class="mob-menu-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-mob-menu"></use>
+              </svg> </button>
+ <ul class="mobile-list list">
+            <li class="mobile-item">
+              <a class="mobile-link link current" href="./index.html">Studio</a>
+            </li>
+            <li class="mobile-item">
+              <a class="mobile-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="mobile-item">
+              <a class="mobile-link link" href="">Contacts</a>
+            </li>
+  </ul></div>
+  <div class="mob-menu-bottom">
+     <ul class="mobile-contacts list">
+        <li><a class="mobile-tel link" href="tel:110001111111"
+          >+11 (000) 111-11-11 </a> </li>
+         <li><a class="mobile-email link" href="mailto:info@devstudio.com"
+          >info@devstudio.com </a> </li> </ul> 
+ <ul class="mobile-soc-list list">
+                  <li class="mobile-soc-item">
+                    <a href="" class="mobile-soc-link link">
+                      <svg class="mobile-soc-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="mobile-soc-item">
+                    <a href="" class="mobile-soc-link link">
+                      <svg class="mobile-soc-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="mobile-soc-item">
+                    <a href="" class="mobile-soc-link link">
+                      <svg class="mobile-soc-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="mobile-soc-item">
+                    <a href="" class="mobile-soc-link link">
+                      <svg class="mobile-soc-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul> </div> </div></div>
+
+
+
+       
     </header>
     <!-- <main>
       <section class="hero">
@@ -517,5 +577,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script> -->
+   <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

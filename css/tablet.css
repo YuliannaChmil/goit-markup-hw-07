@@ -3,7 +3,7 @@
 width: 768px;}
 
 /* ----------------------HEADER--------------------- */
-.mob-menu-open {display: none;}
+.mob-menu-open, .mobile-menu {display: none;}
 
 .header > .container {
 padding-bottom: 22px; }
