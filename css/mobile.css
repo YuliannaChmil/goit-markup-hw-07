@@ -4,7 +4,7 @@ width: 428px;
 margin-left: auto;
 margin-right: auto;}
 
-/* ------------------------------------------- */
+/* ------------------MOBILE MENU------------------------- */
 .mobile-tel {
 font-size: 36px;
 margin-top: 40px;
@@ -13,6 +13,14 @@ margin-bottom: 40px;}
 .mobile-soc-list {
  margin-top: 48px;
 }
+
+/* ------------------HERO-------------------------- */
+
+.hero-title {
+  font-size: 36px;
+}
+
+
 
 }
 
