@@ -118,4 +118,28 @@ row-gap: 72px;
 width: calc((100% - 48px) / 3);
 }
 
+/* ----------------------FOOTER--------------------- */
+.footer > .container {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+column-gap: 24px;
+align-items: baseline;
+}
+
+.subscribe-form {
+display: flex;
+column-gap: 24px;}
+
+.footer-text , .subscribe-email {
+ max-width: 264px;
+}
+
+.footer-logo, .logo-footer-studio, .media-title,.subscribe-title {
+text-align: left;
+}
+
+.subscribe-email {margin-bottom: 0;}
+
 }

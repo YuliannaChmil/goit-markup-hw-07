@@ -94,6 +94,20 @@ padding-bottom: 120px;
   width: calc((100% - 120px) / 6);
 }
 
+/* ----------------------FOOTER--------------------- */
+
+.footer > .container {
+justify-content: space-between;}
+
+ .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;}
+
+.logo-content, .media {margin-bottom: 0;}
+
+
+
+
 
 
 }
