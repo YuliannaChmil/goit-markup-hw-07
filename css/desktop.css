@@ -65,6 +65,34 @@ gap: 40px;}
   max-width: 264px;
 }
 
+/* --------------------ABOUT------------------- */
+
+.without {
+  padding-top: 0px;
+}
+.about-title {
+  margin-bottom: 72px;
+}
+
+.about-list {
+  display: flex;
+  gap: 24px;
+}
+
+.features .about {
+  background-color: var(--main-background-color);
+}
+
+/* --------------------CUSTOMERS------------------- */
+
+.Clients {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.clients-item {
+  width: calc((100% - 120px) / 6);
+}
 
 
 

@@ -106,9 +106,16 @@ row-gap: 72px;
 } 
 
 .features-item {
-  width: calc((100% - 24px) / 2);
+  width: calc((100% - 24px) / 2);}
 
+/* --------------------CUSTOMERS------------------- */
 
+.clients-list {
+  column-gap: 24px;
+}
 
+.clients-item {
+width: calc((100% - 48px) / 3);
+}
 
 }

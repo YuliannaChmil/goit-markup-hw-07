@@ -351,7 +351,8 @@ height: 40px;
 }
 
 @media screen and (max-width: 1199px) {
-.features-icon{display: none;}
+.features-icon, .about {
+display: none;}
 }
 
 .features-title {
@@ -366,23 +367,6 @@ text-align: center;
 margin-bottom: 72px;
 }
 
-/* --------------------ABOUT------------------- */
-
-.without {
-  padding-top: 0px;
-}
-.about-title {
-  margin-bottom: 72px;
-}
-
-.about-list {
-  display: flex;
-  gap: 24px;
-}
-
-.features .about {
-  background-color: var(--main-background-color);
-}
 
 /* --------------------TEAM------------------- */
 
@@ -451,8 +435,9 @@ margin-bottom: 72px;
 
 /* --------------------CUSTOMERS------------------- */
 
-.Clients {
-  padding-top: 130px;
+.clients {
+padding-top: 96px;
+padding-bottom: 96px;
 }
 
 .clients-title {
@@ -461,12 +446,14 @@ margin-bottom: 72px;
 
 .clients-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  row-gap: 72px;
+  column-gap: 16px;
 }
 
 .clients-item {
-  width: calc((100% - 120px) / 6);
-  height: 88px;
+height: 88px;
+width: calc((100% - 16px) / 2);
 }
 
 .clients-link {
