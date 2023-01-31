@@ -1,29 +1,57 @@
 @media screen and (min-width: 480px) {
-.container {
-width: 428px;
-margin-left: auto;
-margin-right: auto;}
+  .container {
+    width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-/* ------------------MOBILE MENU------------------------- */
-.mobile-tel {
-font-size: 36px;
-margin-top: 40px;
-margin-bottom: 40px;}
+  /* ------------------MOBILE MENU------------------- */
+  .mobile-tel {
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 
-.mobile-soc-list {
- margin-top: 48px;
+  .mobile-soc-list {
+    margin-top: 48px;
+  }
+
+  /* ------------------HERO-------------------------- */
+
+  .hero-title {
+    font-size: 36px;
+  }
+
+  /* ----------------------FOOTER--------------------- */
+
+  .subscribe-email {
+    width: 396px;
+  }
+
+  /* ---------------------BACKDROP--------------------- */
+
+  .modal {
+    width: 392px;
+  }
+
+  .modal-close-btn {
+    margin-bottom: 24px;
+  }
+
+  .modal-comment {
+    height: 100px;
+  }
+
+  .check-text {
+    font-size: 12px;
+    margin-bottom: 24px;
+  }
+
+  .check-text span {
+    margin-right: 8px;
+  }
+
+  .modal-submit {
+    font-size: 16px;
+  }
 }
-
-/* ------------------HERO-------------------------- */
-
-.hero-title {
-  font-size: 36px;
-}
-
-/* ----------------------FOOTER--------------------- */
-.subscribe-email {
- width: 396px;
-}
-
-}
-
