@@ -373,6 +373,8 @@ margin-bottom: 72px;
 .team {
   background-color: var(--light-background);
   text-align: center;
+  padding-top: 96px;
+  padding-bottom: 128px;
 }
 
 .team-main-title {
@@ -383,13 +385,15 @@ margin-bottom: 72px;
 }
 
 .team-list {
-  display: flex;
-  gap: 24px;
-  align-items: center;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+row-gap: 72px;
+align-items: center;
 }
 
 .team-item {
-  width: calc((100% - 72px) / 4);
+  background-color: var(--main-background-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -403,9 +407,6 @@ margin-bottom: 72px;
   margin-bottom: 8px;
 }
 
-.team-item {
-  background-color: var(--main-background-color);
-}
 .team-soc-item {
   width: 40px;
   height: 40px;
