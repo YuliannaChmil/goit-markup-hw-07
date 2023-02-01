@@ -13,12 +13,15 @@
   }
 
   .mobile-soc-list {
+    gap: 56px;
+   justify-content: flex-start;
     margin-top: 48px;
   }
 
   /* ------------------HERO-------------------------- */
 
   .hero-title {
+    max-width: 320px;
     font-size: 36px;
   }
 

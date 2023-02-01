@@ -48,6 +48,7 @@
         url("../images/hero-bg@2x.jpg");
     }
   }
+
   /* ------------------FEATURES-------------------------- */
 
   .features, .team, .clients {
@@ -65,6 +66,11 @@
     border-radius: 4px;
     margin-bottom: 8px;
   }
+  .features-title  {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+}
 
   .features-item {
     max-width: 264px;
@@ -89,6 +95,9 @@
   }
 
   /* --------------------CUSTOMERS------------------- */
+ .team > .container {width: 1158px;}
+ 
+ .clients> .container {width: 1158px;}
 
   .clients-item {
     width: calc((100% - 120px) / 6);

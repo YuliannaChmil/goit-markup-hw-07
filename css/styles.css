@@ -327,8 +327,8 @@ body {
   font-size: 34px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  margin: 0 auto;
   color: var(--main-title-color);
-  margin: auto;
   margin-bottom: 72px;
 }
 
@@ -356,7 +356,7 @@ body {
 
 /* ------------------features------------------- */
 
-.features > .container {
+.features {
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -381,6 +381,7 @@ body {
 }
 
 /* --------------------TEAM------------------- */
+
 
 .team {
   background-color: var(--light-background);
@@ -741,7 +742,7 @@ body {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  transform: translate(-50%, -50%) skew(-5deg);
+  transform: translate(-50%, -50%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -773,7 +774,7 @@ body {
 }
 
 .backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) skew(0);
+  transform: translate(-50%, -50%);
 }
 
 /* ---------------------MODAL_FORM---------------------  */

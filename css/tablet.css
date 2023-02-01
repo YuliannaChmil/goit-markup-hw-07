@@ -100,9 +100,10 @@
   }
 
   .hero-title {
-    max-width: 494px;
     font-size: 56px;
     line-height: 1.07;
+    max-width: 500px;
+    margin-bottom: 40px;
   }
 
   /* ------------------FEATURES------------------ */
@@ -129,6 +130,8 @@
 
   /* --------------------TEAM------------------- */
 
+   .team > .container {width: 582px;}
+
   .team {
     padding-bottom: 104px;
   }
@@ -142,6 +145,8 @@
   }
 
   /* --------------------CUSTOMERS------------------ */
+
+  .clients> .container {width: 582px;}
 
   .clients-list {
     column-gap: 24px;
@@ -194,3 +199,4 @@
   }
   
 }
+
